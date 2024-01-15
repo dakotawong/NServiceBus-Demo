@@ -1,0 +1,206 @@
+﻿2024-01-15 10:11:07.400 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:11:07.496 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:11:07.977 ERROR Moving message '69a6e1f8-2a65-41d4-b7ae-b0f800f92c73' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 69a6e1f8-2a65-41d4-b7ae-b0f800f92c73
+ ---> System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCoreAsObject(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](Utf8JsonReader& reader, JsonTypeInfo jsonTypeInfo, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.ReadFromStream[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo)
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, Type type) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 52
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, IList`1 messageTypes) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 41
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 112
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 46
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 50
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 28
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/UnitOfWork/UnitOfWorkBehavior.cs:line 42
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 60
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 35
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 49
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 68
+   at NServiceBus.LearningTransportMessagePump.ProcessFile(ILearningTransportTransaction transaction, String messageId, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Core/Transports/Learning/LearningTransportMessagePump.cs:line 340
+Exception details:
+	Message ID: 69a6e1f8-2a65-41d4-b7ae-b0f800f92c73
+	Transport message ID: 6c82e65d-6f7f-49f2-ae86-f1ef426cccaf
+	Pipeline canceled: False
+2024-01-15 10:11:23.785 ERROR Moving message '1c804cb2-33c2-4018-a47c-b0f800fa5272' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 1c804cb2-33c2-4018-a47c-b0f800fa5272
+ ---> System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCoreAsObject(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](Utf8JsonReader& reader, JsonTypeInfo jsonTypeInfo, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.ReadFromStream[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo)
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, Type type) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 52
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, IList`1 messageTypes) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 41
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 112
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 46
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 50
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 28
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 35
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 49
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 68
+   at NServiceBus.LearningTransportMessagePump.ProcessFile(ILearningTransportTransaction transaction, String messageId, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Core/Transports/Learning/LearningTransportMessagePump.cs:line 340
+Exception details:
+	Message ID: 1c804cb2-33c2-4018-a47c-b0f800fa5272
+	Transport message ID: 15c52580-323b-4c6e-b2cc-96b5f4d89e61
+	Pipeline canceled: False
+2024-01-15 10:13:25.110 ERROR Moving message '8cc549a9-253d-4ad1-aac5-b0f800fae0ba' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 8cc549a9-253d-4ad1-aac5-b0f800fae0ba
+ ---> System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCoreAsObject(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](Utf8JsonReader& reader, JsonTypeInfo jsonTypeInfo, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.ReadFromStream[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo)
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, Type type) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 52
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, IList`1 messageTypes) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 41
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 112
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 46
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 50
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 28
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 35
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 49
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 68
+   at NServiceBus.LearningTransportMessagePump.ProcessFile(ILearningTransportTransaction transaction, String messageId, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Core/Transports/Learning/LearningTransportMessagePump.cs:line 340
+Exception details:
+	Message ID: 8cc549a9-253d-4ad1-aac5-b0f800fae0ba
+	Transport message ID: 29ea9663-7f0d-42a2-9ec0-d11361feaa3c
+	Pipeline canceled: False
+2024-01-15 10:13:38.469 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:13:38.611 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:13:43.993 ERROR Moving message 'a2404434-6b34-4c6d-8815-b0f800faf6a5' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message a2404434-6b34-4c6d-8815-b0f800faf6a5
+ ---> System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCoreAsObject(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](Utf8JsonReader& reader, JsonTypeInfo jsonTypeInfo, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.ReadFromStream[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo)
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, Type type) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 52
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, IList`1 messageTypes) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 41
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 112
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 46
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 50
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 28
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/UnitOfWork/UnitOfWorkBehavior.cs:line 42
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 60
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 35
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 49
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 68
+   at NServiceBus.LearningTransportMessagePump.ProcessFile(ILearningTransportTransaction transaction, String messageId, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Core/Transports/Learning/LearningTransportMessagePump.cs:line 340
+Exception details:
+	Message ID: a2404434-6b34-4c6d-8815-b0f800faf6a5
+	Transport message ID: 50b603a9-34a6-4f1f-b9a0-5b314acebd6f
+	Pipeline canceled: False
+2024-01-15 10:22:25.635 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:22:25.745 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:22:29.812 ERROR Moving message '5152b0cb-a7b7-42a4-a261-b0f800fd5ed4' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 5152b0cb-a7b7-42a4-a261-b0f800fd5ed4
+ ---> System.Text.Json.JsonException: '<' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: '<' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCoreAsObject(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](Utf8JsonReader& reader, JsonTypeInfo jsonTypeInfo, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.ReadFromStream[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo)
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, Type type) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 52
+   at NServiceBus.Serializers.SystemJson.JsonMessageSerializer.Deserialize(ReadOnlyMemory`1 body, IList`1 messageTypes) in /_/src/NServiceBus.Core/Serializers/SystemJson/JsonMessageSerializer.cs:line 41
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 112
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 46
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 50
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 28
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/UnitOfWork/UnitOfWorkBehavior.cs:line 42
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 60
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 35
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 49
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 68
+   at NServiceBus.LearningTransportMessagePump.ProcessFile(ILearningTransportTransaction transaction, String messageId, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Core/Transports/Learning/LearningTransportMessagePump.cs:line 340
+Exception details:
+	Message ID: 5152b0cb-a7b7-42a4-a261-b0f800fd5ed4
+	Transport message ID: 503085bb-dcfa-4cf0-98d6-6c42b4c206ad
+	Pipeline canceled: False
+2024-01-15 10:23:09.752 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:23:09.858 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:24:40.016 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:24:40.114 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:24:40.184 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:25:02.141 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:25:02.232 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:25:02.289 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:25:05.117 INFO  Received PlaceOrder, OrderId = 215f037e-0b5c-4d18-94a9-c813818886bf
+2024-01-15 10:26:04.110 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:26:04.220 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:26:06.687 INFO  Received PlaceOrder, OrderId = 89757e71-e337-47c6-8481-4a61a374479c
+2024-01-15 10:39:47.560 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:39:47.687 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:39:56.092 INFO  Received PlaceOrder, OrderId = 4b788031-3b3e-468e-8de2-eb7cd234a067
+2024-01-15 10:42:25.670 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:42:25.803 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:42:31.548 INFO  Received PlaceOrder, OrderId = 7c270aa7-3d08-4e71-8c14-2d87c69a0dad
+2024-01-15 10:45:13.688 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 10:45:13.840 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:45:18.692 INFO  Received PlaceOrder, OrderId = a661fe4f-6a9d-48ab-a37f-e63bfcb3ecbc
+2024-01-15 11:06:35.633 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Sales\bin\Debug\net6.0\' with level Info
+2024-01-15 11:06:35.785 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 11:06:46.578 INFO  Received PlaceOrder, OrderId = abbf7bc8-7a8e-4763-83cf-d851df8f591b

@@ -1,0 +1,95 @@
+﻿2024-01-15 09:45:24.781 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 09:45:24.836 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 09:45:24.854 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 09:47:14.284 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 09:47:14.333 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 09:47:14.349 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 09:47:14.544 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 09:47:17.111 INFO  Sending PlaceOrder command, OrderId = 15c83f88-f54a-464c-8c19-d2c3dd7391b6
+2024-01-15 09:47:17.168 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 09:47:17.247 INFO  Received PlaceOrder, OrderId = 15c83f88-f54a-464c-8c19-d2c3dd7391b6
+2024-01-15 10:05:36.004 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:05:36.053 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:05:36.069 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:05:36.257 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:06:14.739 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:06:14.789 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:06:14.804 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:06:14.991 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:07:09.515 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:07:09.564 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:07:09.580 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:07:09.768 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:07:12.804 INFO  Sending PlaceOrder command, OrderId = c623bed7-5262-494b-894d-b04150e0b730
+2024-01-15 10:07:12.855 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:09:13.402 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:09:13.455 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:09:13.472 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:09:13.667 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:10:05.312 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:10:05.396 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:10:05.433 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:10:05.773 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:10:31.492 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:10:31.541 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:10:31.556 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:10:31.751 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:11:06.225 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:11:06.318 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:11:06.366 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:11:06.816 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:11:23.678 INFO  Sending PlaceOrder command, OrderId = 665cab5a-711b-4a4c-a4d6-dc601d5fff4a
+2024-01-15 10:11:23.772 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:13:25.094 INFO  Sending PlaceOrder command, OrderId = d1dbc658-d605-49b0-a891-c34d14d21608
+2024-01-15 10:13:25.100 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:13:38.387 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:13:38.482 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:13:38.546 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:13:38.973 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:13:43.794 INFO  Sending PlaceOrder command, OrderId = e5640e38-1354-4ead-9ae4-54cfb67cf225
+2024-01-15 10:13:43.881 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:22:24.982 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:22:25.059 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:22:25.100 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:22:25.585 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:22:29.603 INFO  Sending PlaceOrder command, OrderId = 15a40375-5cdb-437d-bb57-f037245f4749
+2024-01-15 10:22:29.691 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:23:09.130 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:23:09.209 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:23:09.244 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:23:09.675 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:24:40.017 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:24:40.114 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:24:40.184 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:24:40.619 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:25:02.141 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:25:02.232 WARN  Because no message serializer was selected, the default XmlSerializer will be used instead. In a future version of NServiceBus the XmlSerializer will no longer be the default. For better forward compatibility, either choose a different message serializer, or make the choice of XML serialization explicit using endpointConfiguration.UseSerialization<XmlSerializer>()
+2024-01-15 10:25:02.290 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:25:02.736 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:25:04.914 INFO  Sending PlaceOrder command, OrderId = 215f037e-0b5c-4d18-94a9-c813818886bf
+2024-01-15 10:25:05.005 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:26:03.478 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:26:03.593 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:26:04.068 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:26:06.492 INFO  Sending PlaceOrder command, OrderId = 89757e71-e337-47c6-8481-4a61a374479c
+2024-01-15 10:26:06.571 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:39:47.489 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:39:47.608 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:39:48.074 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:39:55.909 INFO  Sending PlaceOrder command, OrderId = 4b788031-3b3e-468e-8de2-eb7cd234a067
+2024-01-15 10:39:55.979 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:42:25.657 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:42:25.778 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:42:26.255 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:42:31.357 INFO  Sending PlaceOrder command, OrderId = 7c270aa7-3d08-4e71-8c14-2d87c69a0dad
+2024-01-15 10:42:31.434 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:45:13.687 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 10:45:13.841 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:45:14.294 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 10:45:18.513 INFO  Sending PlaceOrder command, OrderId = a661fe4f-6a9d-48ab-a37f-e63bfcb3ecbc
+2024-01-15 10:45:18.584 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 11:06:35.148 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\ClientUI\bin\Debug\net6.0\' with level Info
+2024-01-15 11:06:35.258 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 11:06:35.759 INFO  Press 'P' to place an order, or 'Q' to quit.
+2024-01-15 11:06:46.386 INFO  Sending PlaceOrder command, OrderId = abbf7bc8-7a8e-4763-83cf-d851df8f591b
+2024-01-15 11:06:46.467 INFO  Press 'P' to place an order, or 'Q' to quit.

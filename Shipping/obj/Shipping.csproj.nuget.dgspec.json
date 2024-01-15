@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Shipping\\Shipping.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Billing.Messages\\Billing.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Billing.Messages\\Billing.Messages.csproj",
+        "projectName": "Billing.Messages",
+        "projectPath": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Billing.Messages\\Billing.Messages.csproj",
+        "packagesPath": "C:\\Users\\dakot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Billing.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dakot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[8.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Messages\\Sales.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Messages\\Sales.Messages.csproj",
+        "projectName": "Sales.Messages",
+        "projectPath": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Messages\\Sales.Messages.csproj",
+        "packagesPath": "C:\\Users\\dakot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dakot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[8.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Shipping\\Shipping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Shipping\\Shipping.csproj",
+        "projectName": "Shipping",
+        "projectPath": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Shipping\\Shipping.csproj",
+        "packagesPath": "C:\\Users\\dakot\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Shipping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dakot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Billing.Messages\\Billing.Messages.csproj": {
+                "projectPath": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Billing.Messages\\Billing.Messages.csproj"
+              },
+              "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Messages\\Sales.Messages.csproj": {
+                "projectPath": "C:\\Users\\dakot\\Documents\\My Github Repos\\NServiceBus-Demo\\ClientUI\\Messages\\Sales.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[8.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

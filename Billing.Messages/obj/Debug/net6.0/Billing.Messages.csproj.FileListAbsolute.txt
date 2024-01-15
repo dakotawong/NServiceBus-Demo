@@ -1,0 +1,12 @@
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\bin\Debug\net6.0\Billing.Messages.deps.json
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\bin\Debug\net6.0\Billing.Messages.dll
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\bin\Debug\net6.0\Billing.Messages.pdb
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\Billing.Messages.csproj.AssemblyReference.cache
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\Billing.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\Billing.Messages.AssemblyInfoInputs.cache
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\Billing.Messages.AssemblyInfo.cs
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\Billing.Messages.csproj.CoreCompileInputs.cache
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\Billing.Messages.dll
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\refint\Billing.Messages.dll
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\Billing.Messages.pdb
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing.Messages\obj\Debug\net6.0\ref\Billing.Messages.dll

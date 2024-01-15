@@ -1,0 +1,4 @@
+﻿2024-01-15 11:06:35.751 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Shipping\bin\Debug\net6.0\' with level Info
+2024-01-15 11:06:35.885 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 11:06:46.759 INFO  Received OrderPlaced, OrderId = abbf7bc8-7a8e-4763-83cf-d851df8f591b - Should we ship now?
+2024-01-15 11:06:46.813 INFO  Received OrderPlaced, OrderId = abbf7bc8-7a8e-4763-83cf-d851df8f591b - Should we ship now?

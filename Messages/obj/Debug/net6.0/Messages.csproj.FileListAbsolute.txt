@@ -1,0 +1,12 @@
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\bin\Debug\net6.0\Messages.deps.json
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\bin\Debug\net6.0\Messages.dll
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\bin\Debug\net6.0\Messages.pdb
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\Messages.csproj.AssemblyReference.cache
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\Messages.AssemblyInfoInputs.cache
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\Messages.AssemblyInfo.cs
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\Messages.csproj.CoreCompileInputs.cache
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\Messages.dll
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\refint\Messages.dll
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\Messages.pdb
+C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Messages\obj\Debug\net6.0\ref\Messages.dll

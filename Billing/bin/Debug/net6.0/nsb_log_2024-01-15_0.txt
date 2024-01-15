@@ -1,0 +1,11 @@
+﻿2024-01-15 10:39:48.077 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing\bin\Debug\net6.0\' with level Info
+2024-01-15 10:39:48.206 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:42:25.670 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing\bin\Debug\net6.0\' with level Info
+2024-01-15 10:42:25.803 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:42:31.720 INFO  Received OrderPlaced, OrderId = 7c270aa7-3d08-4e71-8c14-2d87c69a0dad - Charging credit card...
+2024-01-15 10:45:13.691 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing\bin\Debug\net6.0\' with level Info
+2024-01-15 10:45:13.842 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 10:45:18.862 INFO  Received OrderPlaced, OrderId = a661fe4f-6a9d-48ab-a37f-e63bfcb3ecbc - Charging credit card...
+2024-01-15 11:06:34.964 INFO  Logging to 'C:\Users\dakot\Documents\My Github Repos\NServiceBus-Demo\ClientUI\Billing\bin\Debug\net6.0\' with level Info
+2024-01-15 11:06:35.084 INFO  No valid license could be found. Falling back to trial license with start date '2024-01-15'.
+2024-01-15 11:06:46.755 INFO  Received OrderPlaced, OrderId = abbf7bc8-7a8e-4763-83cf-d851df8f591b - Charging credit card...
